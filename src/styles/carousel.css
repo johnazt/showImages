@@ -1,14 +1,29 @@
 .container-carousel {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    background: linear-gradient(to top, black, rgb(189, 35, 1) 40%, rgb(231, 227, 24) 100%);
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	background: linear-gradient(
+		to top,
+		black,
+		rgb(189, 35, 1) 40%,
+		rgb(231, 227, 24) 100%
+	);
 }
 .carousel-item {
-    height: 300px;
-    width: 200px;
-    background-color: rgba(0, 0, 0, .7);
-    border-radius: 15px;
-    box-shadow: 15px 15px 5px 1px rgb(14, 14, 14);
-    text-align: center;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 2em;
+	font-style: italic;
+	justify-content: center;
+	height: 450px;
+	min-width: 350px;
+	max-width: 375px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+	box-shadow: 15px 15px 5px 1px rgb(14, 14, 14);
+	background-image: url('../assets/IMG-20201104-WA0023.jpg');
+	background-size: 120% ;
+	background-position: -10px -60px;
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
 }
